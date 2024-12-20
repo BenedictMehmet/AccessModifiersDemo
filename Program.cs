@@ -17,8 +17,9 @@ namespace AccessModifiersDemo
             publicUser.DisplayUserInfo();
 
             // InternalTransaction nutzen
-            var transaction = new InternalTransaction();
-            transaction.ProcessTransaction();
+            var InternalTransaction = new InternalTransaction();
+            InternalTransaction.ProcessTransaction();
+           
 
             // DerivedClass nutzen
             var derived = new DerivedClass();

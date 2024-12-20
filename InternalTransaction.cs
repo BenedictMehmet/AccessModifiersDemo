@@ -4,7 +4,7 @@ namespace AccessModifiersDemo
 {
     internal class InternalTransaction
     {
-        public void ProcessTransaction()
+        internal void ProcessTransaction()
         {
             Console.WriteLine("Transaktion wird verarbeitet.");
         }
