@@ -2,7 +2,7 @@
 
 namespace AccessModifiersDemo
 {
-    public class InternalTransaction
+    internal class InternalTransaction
     {
         public void ProcessTransaction()
         {
